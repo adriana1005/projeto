@@ -28,6 +28,7 @@ def airline_sentimentf():
 
     return [erro, negative, positive, neutral]
 
+#a
 
 airline_sentimentf()
 
