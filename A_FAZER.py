@@ -1,7 +1,8 @@
 '''FEITOS:
-extrair a informação do documento (Adriana)
-separar informação por tópicos: (Adriana)
-Contar o número de tweets por sentimento(Adriana)
+extrair a informação do documento (Adriana) - 27 de novembro 2024
+separar informação por tópicos: (Adriana) - 27 de novembro
+Contar o número de tweets por sentimento(Adriana) - 5 de dezembro
+criar lista com os nomes das airlines, de quantas existem - 9 de dezembro
 
 '''
 
@@ -36,8 +37,10 @@ Criar um menu para iterativo a perguntar por cada coisa, com cores e bonitinho
 
 
 TOTAL DE HORAS:
-Adriana: +/- 15 horas  
+Adriana: +/- 30 horas  
 Carlota:
 Simão:
+
+
 
 '''
