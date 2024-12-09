@@ -44,5 +44,23 @@ def separar_info():
         tweet_location.append(linha[13])
         user_timezone.append(linha[14])
 
+    tweet_id.pop(0)
+    airline_sentiment.pop(0)
+    sentiment_c.pop(0)
+    negativereason.pop(0)
+    negativereason_confidence.pop(0)
+    airline.pop(0)
+    airline_sentiment_gold.pop(0)
+    retweet_count.pop(0)
+    text.pop(0)
+    tweet_coord.pop(0)
+    tweet_created.pop(0)
+    tweet_location.pop(0)
+    user_timezone.pop(0)
+
+
     return [tweet_id, airline_sentiment, sentiment_c, negativereason, negativereason_confidence, airline,
             airline_sentiment_gold, retweet_count, text, tweet_coord, tweet_created, tweet_location, user_timezone]
+
+
+print(separar_info()[1])
