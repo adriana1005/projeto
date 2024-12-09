@@ -3,8 +3,19 @@ from funcoes.separarinformacao import *
 
 separar_info()
 
+nomes_airlines = []
 
-def airline_pop():
-    '''Retirar o primeiro elemento da lista dos nomes das airlines'''
-    airline.pop(0)
-    return airline
+def nomes_airlinesf():
+
+    '''Criar lista com os nomes das airlines, para saber quantas existem'''
+    for i in range(len(airline)):
+        airline[i] = airline[i].strip()
+        if airline[i] in nomes_airlines:
+            continue
+        else:
+            nomes_airlines.append(airline[i])
+    print(nomes_airlines)
+    return nomes_airlines
+
+
+nomes_airlinesf()

@@ -1,14 +1,13 @@
 from funcoes.separarinformacao import *
 
-
-def airline_sent_pop():      #Função para retirar o primeiro elemento da lista
-    '''Trabalhar lista dos sentimentos dos tweets
-    ex: 'negative' , 'positive', 'neutro' '''
-    airline_sentiment.pop(0)
-    return airline_sentiment
+separar_info() #Chamar a função que contém todas as listas
 
 
 def airline_sentimentf():
+    '''Ver quantos negativos, positivos ou neutros existem na lista airline_sentiment'''
+
+    print(airline_sentiment)
+
     negative = 0
     positive = 0
     neutral = 0
@@ -33,3 +32,5 @@ def airline_sentimentf():
 
     return [erro, negative, positive, neutral]
 
+
+airline_sentimentf()
