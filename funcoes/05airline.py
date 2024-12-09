@@ -1,1 +1,0 @@
-from funcoes.separarinformacao import *
