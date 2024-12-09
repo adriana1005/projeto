@@ -9,7 +9,7 @@ lista = []
 
 
 def ler_documento():
-
+    '''Definir uma lista com todos os dados retirados do documento'''
     with open(full_path, 'r', encoding='utf-8', errors='ignore') as file:
         conteudo = csv.reader(file, delimiter=',', quotechar='"', skipinitialspace=True)  # Trata das vírgulas internas
 
