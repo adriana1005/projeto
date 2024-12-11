@@ -30,6 +30,12 @@ companhias aéreas. (em processo)
 -Fazer o READ.ME
 
 -Fazer o relatório no jupyter
+
+-Fazer os asserts de todas as funções(len das listas)
+
+-fazer o logging(importar a biblioteca)
+
+-ver o beta test(?)
  
  
 IDEIAS PARA MELHORAR A NOTA:
